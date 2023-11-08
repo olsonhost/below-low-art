@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"snFoot4","order":5,"path":"sounds/snFoot4/snFoot4.yy",},
+    {"name":"Sprite28","order":16,"path":"sprites/Sprite28/Sprite28.yy",},
     {"name":"obj_gun_pickup","order":14,"path":"objects/obj_gun_pickup/obj_gun_pickup.yy",},
     {"name":"sHouse","order":24,"path":"sprites/sHouse/sHouse.yy",},
     {"name":"sMountain","order":12,"path":"sprites/sMountain/sMountain.yy",},
@@ -69,6 +70,7 @@
     {"name":"sBullet","order":5,"path":"sprites/sBullet/sBullet.yy",},
     {"name":"obj_bullet","order":3,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"rMenu","order":2,"path":"rooms/rMenu/rMenu.yy",},
+    {"name":"obj_crateX","order":20,"path":"objects/obj_crateX/obj_crateX.yy",},
     {"name":"snLanding","order":6,"path":"sounds/snLanding/snLanding.yy",},
     {"name":"sGun","order":4,"path":"sprites/sGun/sGun.yy",},
     {"name":"snFoot2","order":3,"path":"sounds/snFoot2/snFoot2.yy",},

@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sGostTown",
-  "bbox_bottom": 255,
+  "bbox_bottom": 256,
   "bbox_left": 0,
   "bbox_right": 3106,
-  "bbox_top": 5,
+  "bbox_top": 6,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d39fec0-bfee-4b5a-9aa7-f1e2d05d08fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c5f08cf8-2460-408c-ac62-a7bc47b8d0de",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 257,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6d88d036-ed79-4653-a63b-1188fca8d7a0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8dfbf634-0318-4758-b1e4-a10b58ab0457","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8d39fec0-bfee-4b5a-9aa7-f1e2d05d08fa","path":"sprites/sGostTown/sGostTown.yy",},},},"Disabled":false,"id":"85899a8b-cc2d-4246-ab7c-2804e7384614","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c5f08cf8-2460-408c-ac62-a7bc47b8d0de","path":"sprites/sGostTown/sGostTown.yy",},},},"Disabled":false,"id":"4b0ef2da-2579-4c2a-84dc-e62a070cefb6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -65,7 +65,7 @@ vsp = vsp + grv;
 canjump--;
 if (canjump > 0) && (_key_jump) {
 
-	vsp = -7;
+	vsp = -9;
 	canjump = 0;
 
 }

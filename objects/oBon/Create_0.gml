@@ -1,7 +1,7 @@
 hsp = 0;
 vsp = 0;
 grv = 0.3;
-walksp = 3;
+walksp = 4;
 controller = 0;
 hascontrol = true;
 
@@ -15,7 +15,7 @@ audio_sound_pitch(snd_shot, 0.8);
 
 
 
-//music_id = audio_play_sound(bgSndGhostTown,10,true);
+music_id = audio_play_sound(bgSndGhostTown,10,true);
 
 // There you go
 
