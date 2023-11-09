@@ -1,4 +1,9 @@
 #region // Get Player Input
+
+
+// PROBLEM!! Trigger Areas stopped working!!
+
+
 if (hascontrol)
 {
 	_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -65,7 +70,7 @@ vsp = vsp + grv;
 canjump--;
 if (canjump > 0) && (_key_jump) {
 
-	vsp = -9;
+	vsp = jump; // -8?
 	canjump = 0;
 
 }
@@ -99,12 +104,25 @@ if (place_meeting(x + hsp, y, obj_wallX))
 	
 }
 
+// If Bon is horizonally about to hit a shootable wall
+if (place_meeting(x + hsp, y, obj_crateX))
+{
+	// incrementally creep up to the wall
+	while(!place_meeting(x + sign(hsp), y, obj_crateX))
+	{
+		x = x + sign(hsp)
+	}
+	// Then set the horizontal speed to zero
+	hsp = 0;
+	
+}
+
 x = x + hsp;
 
 
 // Vertical Collision
 
-// If Bon is verticallyally about to hit something
+// If Bon is vertically about to hit something
 if (place_meeting(x, y+vsp, obj_wall))
 {
 	// incrementally creep up to the floor
@@ -117,11 +135,24 @@ if (place_meeting(x, y+vsp, obj_wall))
 	
 }
 
-// If Bon is verticallyally about to hit a shootable wall
+// If Bon is vertically about to hit a shootable wall
 if (place_meeting(x, y+vsp, obj_wallX))
 {
 	// incrementally creep up to the floor
 	while(!place_meeting(x, y+sign(vsp),obj_wallX))
+	{
+		y = y + sign(vsp);
+	}
+	// Then set the vertical speed to zero
+	vsp = 0;
+	
+}
+
+// If Bon is vertically about to hit a crate 
+if (place_meeting(x, y+vsp, obj_crateX))
+{
+	// incrementally creep up to the floor
+	while(!place_meeting(x, y+sign(vsp),obj_crateX))
 	{
 		y = y + sign(vsp);
 	}
