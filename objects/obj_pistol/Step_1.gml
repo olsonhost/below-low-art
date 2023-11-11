@@ -1,7 +1,7 @@
 if (!instance_exists(oBon)) return;
 
 x = oBon.x;
-y = oBon.y+10;
+y = oBon.y+0;
 
 if (oBon.controller ==0) 
 {
@@ -31,7 +31,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (
 
 	with (instance_create_layer(x,y,"Bullets",obj_bullet)) 
 	{
-		speed = 25;
+		speed = 30;
 		direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;
 	}
