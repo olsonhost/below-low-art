@@ -1,0 +1,23 @@
+TODONK
+
++ Make room 1 into 2 different surface rooms separated by a mountain
++ Walk into ghost town buildings for exposition and/or things
++ Lifting Wall (for like an elevator)
++ Lighting - light up when gun fired, make caves dark, flashlight, fire
+
+
+Transitions different
+Walking man from Wild Wild West animation
+Draw and shoot
+Flame thrower animation and sound (particle system?)
+Light things on fire (particle system?)
+Melting rock (how?) (particle system?)
+Inventory
+Crouch to change guns, reload, pause game
+Xbox controller play
+Exposition call-out, show character, lines being spoken 
+(you can also take this opportunity to briefly describe the character who is speaking for implicit exposition)
+Rain would be cool (but for no reason - maybe at the end an in the title screen)
+
+Include a summary of the book and links where people can get it.  Make this a mainstay of BR games.
+Add that ^ to the main menu - link to BR website wiki (hey!)

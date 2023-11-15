@@ -55,6 +55,7 @@
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},},
     {"id":{"name":"sGostTown","path":"sprites/sGostTown/sGostTown.yy",},},
     {"id":{"name":"obj_enemy_big","path":"objects/obj_enemy_big/obj_enemy_big.yy",},},
+    {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"fSign","path":"fonts/fSign/fSign.yy",},},
     {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},},
