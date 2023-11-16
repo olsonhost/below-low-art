@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"snFoot4","order":5,"path":"sounds/snFoot4/snFoot4.yy",},
+    {"name":"Quotes","order":2,"path":"notes/Quotes/Quotes.yy",},
     {"name":"Sprite28","order":16,"path":"sprites/Sprite28/Sprite28.yy",},
     {"name":"obj_gun_pickup","order":14,"path":"objects/obj_gun_pickup/obj_gun_pickup.yy",},
     {"name":"sHouse","order":24,"path":"sprites/sHouse/sHouse.yy",},
@@ -30,6 +31,7 @@
     {"name":"obj_sign","order":13,"path":"objects/obj_sign/obj_sign.yy",},
     {"name":"obj_dead","order":5,"path":"objects/obj_dead/obj_dead.yy",},
     {"name":"sGun1","order":20,"path":"sprites/sGun1/sGun1.yy",},
+    {"name":"Game Notes","order":1,"path":"notes/Game Notes/Game Notes.yy",},
     {"name":"sDirtMenu","order":14,"path":"sprites/sDirtMenu/sDirtMenu.yy",},
     {"name":"obj_menu","order":9,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"obj_gun","order":2,"path":"objects/obj_gun/obj_gun.yy",},

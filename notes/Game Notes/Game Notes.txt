@@ -1,0 +1,51 @@
+First Goal - Test Game
+Simple Platformer - 2000 Miles Below
+Surface play: Ghost town to desert (mining operation) to volcano
+Sub-surface, go down the volcano shaft OR secret entrance in ghost town
+
+New Rhyolite
+Tonah Basin
+Are they real places? no
+30's Car
+Shooter play down into the volcano
+Lava pits and cliffs and things
+Overlord DVD encounter
+If you don't go down and go after them in the first place, they will start coming out and will eventually overwhelm you.
+You eventually hit Phee-e-al (Boss) and fight him, but then the mole men who are left are unbeatable. Loah rescues you and you descend in the thing
+You encounter the Holy Mountain, Old Rotan, Gor, stuff happens
+Then you find the thing to the surface and go up with Loah and it ends somehow
+
+So there's like 4 or 5 levels
+1. New Rhyote
+2. Tonah Basin
+3. Zone of Fire
+4. Loah's world
+5. Get back to the surface before the water hits the Zone of Fire
+(Avoid the steam and escape, meet up with the army, get a machine gun or grenades)
+
+
+Phases and Game
+Step up the resolution (64 pixels) and put a lot of effort into the player's animation
+Walk, run, shoot, jump, step up/down, climb up/down, turn, shoot backwards, surprise,
+The mole men would rather capture you than kill you, but they can still burn you up if to fight them
+You can go down into the caves, but you don't get to Hell level until you are captured or maybe fall
+So why not just let them capture you?
+No, that doesn't work.
+There has to be an alternative path to getting to Hell level that doesn't involve being captured
+And a reason why that's better, maybe when you get captured you lose all of your inventory and it
+takes a lot of effort to get it back so you can continue
+So the "Cave" level is just dark an rocky and you can come back up, with natural sounds
+The "Hell" level is firey, red with scary sounds
+Ultimately you encounter Loah and you go Below
+Opening Gorr scene and crawl
+Use the Librivox book for soundbites
+Hell level has patches of gold
+Hell level has the bailer and you have to put your ring on it in order to get rescued in the end
+You have to put your ring on it before it goes up
+Below is brightly colored with crystals and the earth core sun in the "sky" and the ocean
+Sea level is rising
+You have to throw a bomb into sea to drain it before you can escape back up
+Then you have to beat the steam
+If you placed your ring on the bailer then the army is in the "Hell" level to rescue you and Loah
+Then you finally make it out but you have to fight the boss Phee-e-ol to win
+Power!

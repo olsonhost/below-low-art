@@ -1,0 +1,81 @@
+TODONK
+
++ Make room 1 into 2 different surface rooms separated by a mountain
++ Walk into ghost town buildings for exposition and/or things
++ Lifting Wall (for like an elevator)
+
++ Lighting - light up when gun fired, make caves dark, flashlight, fire
+	Lighting is hard :(
+	
+Bon isn't in a standing position on top of obj_crateX	
+
+Need a different gun sound for inside the caves.
+
+Walking with no gun at first,
+then he walks holding his pistol straigt out in front,
+but he can pivot and point backwards (think curly in tombstone, walking an pointing)
+
+"It the future year of 1942.. Mining Engineer Dean Rawson & Co are drilling in the western desert for heat energy
+near the abandoned ghost town of Rhyolite. A the depth of 10 miles they discover that they've drilled straight 
+into hell"
+
+
+(This is from the Big Show)
+
+Short List
+
+Pixel art of player for gun holding
+Changing / Reloading guns
+Picking up bullets
+Having an Inventory (starting with guns, bullets)
+Flamethrower gun - burn things (pBurnable)
+NPCs with exposition
+Mole men (red & yellow & boss) - art
+Mole men AI
+Ghost town
+Mining operation
+Volcano mountain
+30's car
+Opening crawl
+
+Really Short List
+
+Control must be within x pixels (so you can control something else, or access inventory later)
+See if you can have 2 Bons after this ^
+Lower the music volume and stop it after room ends
+Change shooting sound
+Add shooting impact
+Make another bullet
+so one is tiny (pistol) and the other is for flame
+so eventually it will become a good flame thrower effect
+and the impact starts a fire
+Enemy pixel art mole man burning and collapsing? Or don't they burn
+Pixel art for mole men. Step up the pixel art to be more hi res
+Pixel art Bon is holding the pistol, pistol object is just a dot, or has his arm
+Diffr left, right sprites holding pistol in right hand (so it's behind him when going left)
+Sky and clouds? Like concept art?
+Not wanting to get too too crazy, this is just practice you see
+NPCs! Audio? From the audio book even?
+(^ From the big show)
+
+
+
+
+
+A train goes by in the background?
+
+Transitions different
+Walking man from Wild Wild West animation
+Draw and shoot
+Flame thrower animation and sound (particle system?)
+Light things on fire (particle system?)
+Melting rock (how?) (particle system?)
+Inventory
+Crouch to change guns, reload, pause game
+Xbox controller play
+Exposition call-out, show character, lines being spoken 
+(you can also take this opportunity to briefly describe the character who is speaking for implicit exposition)
+Rain would be cool (but for no reason - maybe at the end an in the title screen)
+
+Include a summary of the book and links where people can get it.  Make this a mainstay of BR games.
+Add that ^ to the main menu - link to BR website wiki (hey!)
