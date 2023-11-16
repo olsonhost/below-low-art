@@ -3,7 +3,12 @@ TODONK
 + Make room 1 into 2 different surface rooms separated by a mountain
 + Walk into ghost town buildings for exposition and/or things
 + Lifting Wall (for like an elevator)
+
 + Lighting - light up when gun fired, make caves dark, flashlight, fire
+	Lighting is hard :(
+	
+
+Need a different gun sound for inside the caves.
 
 
 Transitions different
