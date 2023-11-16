@@ -7,8 +7,6 @@ TODONK
 + Lighting - light up when gun fired, make caves dark, flashlight, fire
 	Lighting is hard :(
 	
-Bon isn't in a standing position on top of obj_crateX	
-
 Need a different gun sound for inside the caves.
 
 Walking with no gun at first,

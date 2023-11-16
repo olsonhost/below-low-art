@@ -165,7 +165,9 @@ y = y + vsp;
 
 // Animation
 
-if ( (!place_meeting(x, y+1, obj_wall)) && (!place_meeting(x, y+1, obj_wallX))) 
+// See if you can use a parent object reference here instead of having to list all objects you can stand on
+
+if ( (!place_meeting(x, y+1, obj_wall)) && (!place_meeting(x, y+1, obj_wallX)) && (!place_meeting(x, y+1, obj_crateX)) ) 
 {
 	sprite_index = sBonA;
 	image_speed = 0;

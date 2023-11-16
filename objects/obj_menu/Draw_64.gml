@@ -6,7 +6,7 @@ draw_set_valign(fa_bottom);
 var col = c_white;
 for (var i = 0; i < menu_items; i++)
 {
-		var offset = 2;
+		var offset = 3;
 		var txt = menu[i];
 		if (menu_cursor == i) 
 		{

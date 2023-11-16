@@ -48,8 +48,8 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 2: slide_transition(TRANS_MODE.NEXT); break;
-		case 1: 
+		case 3: slide_transition(TRANS_MODE.NEXT); break;
+		case 2: 
 		{
 			if (!file_exists(SAVEFILE))
 			{
@@ -66,6 +66,7 @@ if (menu_x > gui_width+150) && (menu_committed != -1)
 			}
 		}
 		break;
+		case 1: break;
 		case 0: game_end(); break;
 	}
 }

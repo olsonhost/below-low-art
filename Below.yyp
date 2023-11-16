@@ -38,6 +38,7 @@
     {"id":{"name":"snFoot4","path":"sounds/snFoot4/snFoot4.yy",},},
     {"id":{"name":"Quotes","path":"notes/Quotes/Quotes.yy",},},
     {"id":{"name":"Sprite28","path":"sprites/Sprite28/Sprite28.yy",},},
+    {"id":{"name":"obj_pistol_pickup","path":"objects/obj_pistol_pickup/obj_pistol_pickup.yy",},},
     {"id":{"name":"obj_gun_pickup","path":"objects/obj_gun_pickup/obj_gun_pickup.yy",},},
     {"id":{"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},},
@@ -92,6 +93,7 @@
     {"id":{"name":"sPistol","path":"sprites/sPistol/sPistol.yy",},},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},},
     {"id":{"name":"obj_crate","path":"objects/obj_crate/obj_crate.yy",},},
+    {"id":{"name":"Room1a","path":"rooms/Room1a/Room1a.yy",},},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
@@ -109,6 +111,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room1a","path":"rooms/Room1a/Room1a.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType": null,

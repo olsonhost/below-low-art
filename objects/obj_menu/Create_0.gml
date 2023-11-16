@@ -15,12 +15,13 @@ menu_itemheight = font_get_size(menu_font);
 menu_committed = -1;
 menu_control = true;
 
-menu[2] = "New Game";
-menu[1] = "Continue";
+menu[3] = "New Game";
+menu[2] = "Continue";
+menu[1] = "Story";
 menu[0] = "Quit";
 
 menu_items = array_length(menu);
 
 menu_top = menu_y - ((menu_itemheight * 1.5) * menu_items);
 
-menu_cursor = 2;
+menu_cursor = 3;
