@@ -21,6 +21,19 @@ if (place_meeting(x+hsp, y, obj_wall))
 	
 }
 
+// Maybe remove this if you want the enemies to be able to walk through walls!
+if (place_meeting(x+hsp, y, obj_wallX))
+{
+	// incrementally creep up to the wall
+	while(!place_meeting(x+sign(hsp),y,obj_wallX))
+	{
+		x = x + sign(hsp)
+	}
+	// Then set the horizontal speed to zero
+	hsp = -hsp;
+	
+}
+
 // If Enemy is horizonally about to hit a crateX
 if (place_meeting(x+hsp, y, obj_crateX))
 {
@@ -52,11 +65,36 @@ if (place_meeting(x, y+vsp, obj_wall))
 	
 }
 
+
+if (place_meeting(x, y+vsp, obj_wallX))
+{
+	// incrementally creep up to the floor
+	while(!place_meeting(x, y+sign(vsp),obj_wallX))
+	{
+		y = y + sign(vsp);
+	}
+	// Then set the vertical speed to zero
+	vsp = 0;
+	
+}
+
+if (place_meeting(x, y+vsp, obj_crateX))
+{
+	// incrementally creep up to the floor
+	while(!place_meeting(x, y+sign(vsp),obj_crateX))
+	{
+		y = y + sign(vsp);
+	}
+	// Then set the vertical speed to zero
+	vsp = 0;
+	
+}
+
 y = y + vsp;
 
 // Animation
 
-if (!place_meeting(x, y+1, obj_wall)) 
+if (!place_meeting(x, y+1, obj_wall) && !place_meeting(x, y+1, obj_wallX) && !place_meeting(x, y+1, obj_crateX)) 
 {
 	grounded = false;
 	sprite_index = sEnemyAir;

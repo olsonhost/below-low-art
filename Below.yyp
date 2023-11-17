@@ -83,6 +83,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},},
     {"id":{"name":"pShootable","path":"objects/pShootable/pShootable.yy",},},
+    {"id":{"name":"House1","path":"rooms/House1/House1.yy",},},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
     {"id":{"name":"sstars","path":"sprites/sstars/sstars.yy",},},
     {"id":{"name":"snFoot1","path":"sounds/snFoot1/snFoot1.yy",},},
@@ -113,6 +114,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room1a","path":"rooms/Room1a/Room1a.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"House1","path":"rooms/House1/House1.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

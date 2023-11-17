@@ -4,7 +4,7 @@
 // PROBLEM!! Trigger Areas stopped working!!
 
 
-if (hascontrol)
+if (true) // (hascontrol)
 {
 	_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	_key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));

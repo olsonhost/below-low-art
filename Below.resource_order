@@ -61,6 +61,7 @@
     {"name":"sEnemy","order":6,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sTrigger","order":11,"path":"sprites/sTrigger/sTrigger.yy",},
     {"name":"pShootable","order":16,"path":"objects/pShootable/pShootable.yy",},
+    {"name":"House1","order":4,"path":"rooms/House1/House1.yy",},
     {"name":"obj_text","order":12,"path":"objects/obj_text/obj_text.yy",},
     {"name":"sstars","order":15,"path":"sprites/sstars/sstars.yy",},
     {"name":"snFoot1","order":2,"path":"sounds/snFoot1/snFoot1.yy",},
