@@ -1,7 +1,33 @@
 TODONK
 
-+ Make room 1 into 2 different surface rooms separated by a mountain
-+ Walk into ghost town buildings for exposition and/or things
+Save anything considered "artistic" for later unless it's specifically a coding thing like
++ The underlying code for flamethrower
++ Things on fire - causing things to catch on fire with your flamethrower
++ Things set on fire by enemies
++ NPC on fire (mercy shoot him?)
++ etc
+
+next (Coding for, not focusing on the artisticness) :
+
+NPC's
+NPC exposition (voice balloon? generic callout?)
+NPC exposition audio?
+Enemy sounds, growling, being shot
+Sound you make when you are hit, die, get life
+Audio for room1a, room2
+Doomcock sequence
+Grenade, like a bullet, bounces, skips, drops down, goes boom
+Different gun sounds based on room
+Ricochet when you don't hit enemy?
+A popup to show what you have picked up, like a gun, ammo
+Exposition callouts
+Inventory variables, and counting down your bullets, and picking up more bullets
+Hits on player, "hearts", adding and taking away hit points
+Enemy shooters
+
+
+
+
 + Lifting Wall (for like an elevator)
 
 + Lighting - light up when gun fired, make caves dark, flashlight, fire
