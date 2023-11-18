@@ -27,7 +27,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (
 	audio_sound_pitch(snd_flame,choose(0.8, 1.0, 1.2));
 	audio_play_sound(snd_flame,5,false);
 
-	with (instance_create_layer(x,y,"Bullets",obj_bullet)) 
+	with (instance_create_layer(x,y,"Bullets",obj_flame)) 
 	{
 		speed = 10;
 		direction = other.image_angle + random_range(-3,3);

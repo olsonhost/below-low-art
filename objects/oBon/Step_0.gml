@@ -2,12 +2,22 @@
 
 
 // In the Step Event of the object you want to check
+
+// See if the mouse is in a good position to move the player
 var distanceToMouse;
+var ok = false;
 distanceToMouse = point_distance(x, y, mouse_x, mouse_y);
 
+if ((distanceToMouse > 60) && (distanceToMouse < 500)) ok = true;
 
 
-if ((distanceToMouse > 60) && (distanceToMouse < 500)) // was (hascontrol)
+if (mouseWithinViewportEdge()) {
+    // Mouse is within 100 pixels of the viewport edge
+    //show_debug_message("Mouse is near the viewport edge!");
+	ok = true;
+}
+
+if (ok) // was (hascontrol)
 {
 	_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	_key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
@@ -181,9 +191,37 @@ else
 	canjump = 10;
 	if(sprite_index == sBonA) 
 	{
-		//audio_sound_pitch(snLanding,random_range(0.5, 1.5);
-		audio_sound_pitch(snLanding,choose(0.8, 1.0, 1.2));
-		audio_play_sound(snLanding,6,false);
+		
+		var currentRoom;
+
+		currentRoom = room_get_name(room);
+	
+		switch (currentRoom) {
+	
+			case "Room1":
+			case "Room1a":
+				audio_sound_pitch(snLanding,random_range(0.9, 1.5));
+				audio_play_sound(snLanding,1,false);
+				break;
+
+			case "Room2": // Cavern footsteps
+			//case "Room3": // Cavern footsteps
+				audio_sound_pitch(snLanding,random_range(0.9, 1.5));
+				audio_play_sound(snLanding,1,false);
+				break;
+
+			//case "Doomcock": // Echo footsteps
+			//case "WhateverThatLandIsCalled": // Glass Breaking footsteps
+			//case "IndoorsInThatLandPalaceThing": // ?? footsteps
+
+
+			default: // Indoors footsteps
+				audio_play_sound(choose(snIndoorFoot1,snIndoorFoot2,snIndoorFoot3,snIndoorFoot4),1,false);
+
+			
+		}
+		
+	
 	}
 	image_speed = 1;
 	if (hsp == 0) {
