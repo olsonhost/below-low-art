@@ -1,5 +1,9 @@
 if (!instance_exists(oBon)) return;
 
+// We don't wanna have both the pistol and the gun.
+if (instance_exists(obj_gun)) 
+	instance_destroy();
+
 x = oBon.x;
 y = oBon.y+0;
 
@@ -27,7 +31,33 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (
 	ScreenShake(2,10); // Camel (works) vs snake (error) ...
 	//                    because sript name and function name can't be the same?
 	audio_sound_pitch(snd_shot,choose(0.8, 1.0, 1.2));
-	audio_play_sound(snd_shot,5,false);
+	
+	var currentRoom;
+
+	currentRoom = room_get_name(room);
+	
+	switch (currentRoom) {
+	
+		case "Room1":
+		case "Room1a":
+			audio_play_sound(snd_shot, 5, false);
+			break;
+
+		case "Room2": // Cavern
+			audio_play_sound(snd_shot1, 5, false);
+			break;
+
+		default: // Indoors
+			audio_play_sound(snd_shot1, 5, false);
+}
+	
+	
+//	if (currentRoom == "Room1") {
+//    audio_play_sound(sound1, 5, false);
+//	} else if (currentRoom == "Room2") {
+//    audio_play_sound(sound2, 5, false);
+//	}
+//	audio_play_sound(snd_shot,5,false);
 
 	with (instance_create_layer(x,y,"Bullets",obj_bullet)) 
 	{

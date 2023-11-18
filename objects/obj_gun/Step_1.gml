@@ -20,16 +20,16 @@ firingdelay = firingdelay - 1;
 
 if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (firingdelay < 0)
 {
-	firingdelay = 20;
+	firingdelay = 10;
 	recoil = 4;
 	ScreenShake(2,10); // Camel (works) vs snake (error) ...
 	//                    because sript name and function name can't be the same?
-	audio_sound_pitch(snd_shot,choose(0.8, 1.0, 1.2));
-	audio_play_sound(snd_shot,5,false);
+	audio_sound_pitch(snd_flame,choose(0.8, 1.0, 1.2));
+	audio_play_sound(snd_flame,5,false);
 
 	with (instance_create_layer(x,y,"Bullets",obj_bullet)) 
 	{
-		speed = 60;
+		speed = 10;
 		direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;
 	}
