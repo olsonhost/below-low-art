@@ -12,4 +12,13 @@ _key_right = 0;
 
 canjump = 0;
 
+// Inventory
+
+has_gun = 0;
+has_pistol = 0;
+num_bullets = 6;
+num_hearts = 10;
+num_flames = 50;
+
+
   

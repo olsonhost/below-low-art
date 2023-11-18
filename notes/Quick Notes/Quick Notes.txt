@@ -1,5 +1,7 @@
 TODONK
 
+I downloaded a bunch of demon sounds
+
 Save anything considered "artistic" for later unless it's specifically a coding thing like
 + The underlying code for flamethrower
 + Things on fire - causing things to catch on fire with your flamethrower
@@ -17,7 +19,7 @@ Sound you make when you are hit, die, get life
 Audio for room1a, room2
 Doomcock sequence
 Grenade, like a bullet, bounces, skips, drops down, goes boom
-Different gun sounds based on room
+X Different gun sounds based on room
 Ricochet when you don't hit enemy?
 A popup to show what you have picked up, like a gun, ammo
 Exposition callouts

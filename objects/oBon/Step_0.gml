@@ -7,7 +7,7 @@ distanceToMouse = point_distance(x, y, mouse_x, mouse_y);
 
 
 
-if ((distanceToMouse > 60) && (distanceToMouse < 300)) // was (hascontrol)
+if ((distanceToMouse > 60) && (distanceToMouse < 500)) // was (hascontrol)
 {
 	_key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	_key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
