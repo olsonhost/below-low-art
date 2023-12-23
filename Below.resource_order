@@ -53,6 +53,7 @@
     {"name":"screen_shake","order":1,"path":"scripts/screen_shake/screen_shake.yy",},
     {"name":"sSign","order":18,"path":"sprites/sSign/sSign.yy",},
     {"name":"obj_enemy","order":4,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_TextDisplay","order":23,"path":"objects/obj_TextDisplay/obj_TextDisplay.yy",},
     {"name":"sEnemyRun","order":7,"path":"sprites/sEnemyRun/sEnemyRun.yy",},
     {"name":"sWallX","order":23,"path":"sprites/sWallX/sWallX.yy",},
     {"name":"snFoot3","order":4,"path":"sounds/snFoot3/snFoot3.yy",},

@@ -11,6 +11,12 @@ Save anything considered "artistic" for later unless it's specifically a coding 
 
 next (Coding for, not focusing on the artisticness) :
 
+A popup to show what you have picked up, like a gun, ammo
+Exposition callouts
+Inventory variables, and counting down your bullets, and picking up more bullets
+Hits on player, "hearts", adding and taking away hit points
+
+
 NPC's
 NPC exposition (voice balloon? generic callout?)
 NPC exposition audio?
@@ -20,11 +26,9 @@ Audio for room1a, room2
 Doomcock sequence
 Grenade, like a bullet, bounces, skips, drops down, goes boom
 X Different gun sounds based on room
+X Different footstep sounds based on room
 Ricochet when you don't hit enemy?
-A popup to show what you have picked up, like a gun, ammo
-Exposition callouts
-Inventory variables, and counting down your bullets, and picking up more bullets
-Hits on player, "hearts", adding and taking away hit points
+
 Enemy shooters
 
 

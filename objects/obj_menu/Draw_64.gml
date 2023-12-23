@@ -26,6 +26,7 @@ for (var i = 0; i < menu_items; i++)
 		//draw_text(xx-offset,yy,txt);
 		//draw_text(xx,yy+offset,txt);
 		//draw_text(xx,yy-offset,txt);
+		//var col = c_white;
 		draw_set_color(col);
 		draw_text(xx,yy,txt);
 }

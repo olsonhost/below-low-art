@@ -74,6 +74,7 @@
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
     {"id":{"name":"sSign","path":"sprites/sSign/sSign.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_TextDisplay","path":"objects/obj_TextDisplay/obj_TextDisplay.yy",},},
     {"id":{"name":"sEnemyRun","path":"sprites/sEnemyRun/sEnemyRun.yy",},},
     {"id":{"name":"sWallX","path":"sprites/sWallX/sWallX.yy",},},
     {"id":{"name":"snFoot3","path":"sounds/snFoot3/snFoot3.yy",},},
