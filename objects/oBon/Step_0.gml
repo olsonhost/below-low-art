@@ -8,7 +8,7 @@ var distanceToMouse;
 var ok = false;
 distanceToMouse = point_distance(x, y, mouse_x, mouse_y);
 
-if ((distanceToMouse > 60) && (distanceToMouse < 500)) ok = true;
+if ((distanceToMouse > 0) && (distanceToMouse < 500)) ok = true;
 
 
 if (mouseWithinViewportEdge()) {
@@ -180,6 +180,9 @@ y = y + vsp;
 
 // See if you can use a parent object reference here instead of having to list all objects you can stand on
 
+var currentRoom = room_get_name(room);
+
+
 if ( (!place_meeting(x, y+1, obj_wall)) && (!place_meeting(x, y+1, obj_wallX)) && (!place_meeting(x, y+1, obj_crateX)) ) 
 {
 	sprite_index = sBonA;
@@ -192,10 +195,7 @@ else
 	if(sprite_index == sBonA) 
 	{
 		
-		var currentRoom;
 
-		currentRoom = room_get_name(room);
-	
 		switch (currentRoom) {
 	
 			case "Room1":
@@ -231,4 +231,26 @@ else
 	}
 
 }
-if (hsp != 0) image_xscale = sign(hsp);
+
+//var currentRoom = room_get_name(room);
+
+switch (currentRoom) {
+	
+	//case "Room1": // Town
+	//case "Room1a": // Desert
+	//case "Room2": // Cavern
+	//case "Room3": // Cavern
+	//case "Doomcock": // Echo footsteps
+	//case "WhateverThatLandIsCalled": // Glass Breaking footsteps
+	//case "IndoorsInThatLandPalaceThing": // ?? footsteps
+
+	case "House1":
+		if (hsp != 0) image_xscale = 3 * sign(hsp);
+		break;
+	default: // Indoors footsteps
+		if (hsp != 0) image_xscale = sign(hsp);
+
+			
+}
+
+

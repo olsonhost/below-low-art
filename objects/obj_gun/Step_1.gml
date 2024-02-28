@@ -1,3 +1,13 @@
+
+var currentScale = 1;
+switch (room_get_name(room)) {
+	case "House1":
+		currentScale = 3;
+		break;
+	default: // Indoors footsteps
+		currentScale = 1;
+}
+
 x = oBon.x;
 y = oBon.y+0;
 
@@ -39,16 +49,17 @@ recoil = max(0, recoil - 1);
 
 x = x - lengthdir_x(recoil, image_angle);
 y = y - lengthdir_y(recoil, image_angle);
-
+image_xscale = currentScale * 1;
 if(image_angle > 90) && (image_angle < 270)
 {
-	image_yscale = -1;
+	image_yscale = currentScale * -1;
 }
 else
 {
-	image_yscale = 1;
+	image_yscale = currentScale * 1;
 }
 	
+
 
 
 

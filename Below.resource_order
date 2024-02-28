@@ -15,6 +15,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Backgrounds","order":28,"path":"folders/Sprites/Backgrounds.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
@@ -62,6 +63,7 @@
     {"name":"obj_pistol","order":17,"path":"objects/obj_pistol/obj_pistol.yy",},
     {"name":"obj_wallX","order":18,"path":"objects/obj_wallX/obj_wallX.yy",},
     {"name":"oBonDead","order":11,"path":"objects/oBonDead/oBonDead.yy",},
+    {"name":"house1","order":1,"path":"sprites/house1/house1.yy",},
     {"name":"obj_level_end","order":8,"path":"objects/obj_level_end/obj_level_end.yy",},
     {"name":"sBonA","order":3,"path":"sprites/sBonA/sBonA.yy",},
     {"name":"sEnemy","order":6,"path":"sprites/sEnemy/sEnemy.yy",},
