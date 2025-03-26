@@ -26,7 +26,7 @@ if (done == 0) {
 	{
 		if (vsp > 0) {
 			done = 1;
-			image_index = 1;	
+			image_index = 5;	
 			alarm[0] = 60;
 		}	
 		
